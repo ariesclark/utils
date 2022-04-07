@@ -29,4 +29,4 @@ Generate a number within the specified range.
 
 #### Defined in
 
-[random.ts:7](https://github.com/ariesclark/utils/blob/d20b945/src/random.ts#L7)
+[random.ts:7](https://github.com/ariesclark/utils/blob/f54dd1b/src/random.ts#L7)

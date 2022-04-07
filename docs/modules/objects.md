@@ -42,7 +42,7 @@
 
 #### Defined in
 
-[objects.ts:3](https://github.com/ariesclark/utils/blob/d20b945/src/objects.ts#L3)
+[objects.ts:3](https://github.com/ariesclark/utils/blob/f54dd1b/src/objects.ts#L3)
 
 ___
 
@@ -60,7 +60,7 @@ Array<[key, value]>
 
 #### Defined in
 
-[objects.ts:6](https://github.com/ariesclark/utils/blob/d20b945/src/objects.ts#L6)
+[objects.ts:6](https://github.com/ariesclark/utils/blob/f54dd1b/src/objects.ts#L6)
 
 ___
 
@@ -92,7 +92,7 @@ ___
 
 #### Defined in
 
-[objects.ts:14](https://github.com/ariesclark/utils/blob/d20b945/src/objects.ts#L14)
+[objects.ts:14](https://github.com/ariesclark/utils/blob/f54dd1b/src/objects.ts#L14)
 
 ___
 
@@ -108,7 +108,7 @@ ___
 
 #### Defined in
 
-[objects.ts:7](https://github.com/ariesclark/utils/blob/d20b945/src/objects.ts#L7)
+[objects.ts:7](https://github.com/ariesclark/utils/blob/f54dd1b/src/objects.ts#L7)
 
 ___
 
@@ -124,7 +124,7 @@ ___
 
 #### Defined in
 
-[objects.ts:1](https://github.com/ariesclark/utils/blob/d20b945/src/objects.ts#L1)
+[objects.ts:1](https://github.com/ariesclark/utils/blob/f54dd1b/src/objects.ts#L1)
 
 ___
 
@@ -141,7 +141,7 @@ ___
 
 #### Defined in
 
-[objects.ts:11](https://github.com/ariesclark/utils/blob/d20b945/src/objects.ts#L11)
+[objects.ts:11](https://github.com/ariesclark/utils/blob/f54dd1b/src/objects.ts#L11)
 
 ___
 
@@ -173,7 +173,7 @@ ___
 
 #### Defined in
 
-[objects.ts:15](https://github.com/ariesclark/utils/blob/d20b945/src/objects.ts#L15)
+[objects.ts:15](https://github.com/ariesclark/utils/blob/f54dd1b/src/objects.ts#L15)
 
 ___
 
@@ -190,7 +190,7 @@ ___
 
 #### Defined in
 
-[objects.ts:2](https://github.com/ariesclark/utils/blob/d20b945/src/objects.ts#L2)
+[objects.ts:2](https://github.com/ariesclark/utils/blob/f54dd1b/src/objects.ts#L2)
 
 ___
 
@@ -207,7 +207,7 @@ ___
 
 #### Defined in
 
-[objects.ts:12](https://github.com/ariesclark/utils/blob/d20b945/src/objects.ts#L12)
+[objects.ts:12](https://github.com/ariesclark/utils/blob/f54dd1b/src/objects.ts#L12)
 
 ## Functions
 
@@ -235,7 +235,7 @@ Create an object without a prototype.
 
 #### Defined in
 
-[objects.ts:44](https://github.com/ariesclark/utils/blob/d20b945/src/objects.ts#L44)
+[objects.ts:44](https://github.com/ariesclark/utils/blob/f54dd1b/src/objects.ts#L44)
 
 ___
 
@@ -263,7 +263,7 @@ Returns an array of key/values of the enumerable properties of an object.
 
 #### Defined in
 
-[objects.ts:28](https://github.com/ariesclark/utils/blob/d20b945/src/objects.ts#L28)
+[objects.ts:28](https://github.com/ariesclark/utils/blob/f54dd1b/src/objects.ts#L28)
 
 ___
 
@@ -294,7 +294,7 @@ predicate without mutating the original.
 
 #### Defined in
 
-[objects.ts:56](https://github.com/ariesclark/utils/blob/d20b945/src/objects.ts#L56)
+[objects.ts:56](https://github.com/ariesclark/utils/blob/f54dd1b/src/objects.ts#L56)
 
 ___
 
@@ -322,7 +322,7 @@ Returns an object created by key-value entries for properties and methods
 
 #### Defined in
 
-[objects.ts:36](https://github.com/ariesclark/utils/blob/d20b945/src/objects.ts#L36)
+[objects.ts:36](https://github.com/ariesclark/utils/blob/f54dd1b/src/objects.ts#L36)
 
 ___
 
@@ -350,7 +350,7 @@ keyof `T`[]
 
 #### Defined in
 
-[objects.ts:21](https://github.com/ariesclark/utils/blob/d20b945/src/objects.ts#L21)
+[objects.ts:21](https://github.com/ariesclark/utils/blob/f54dd1b/src/objects.ts#L21)
 
 ___
 
@@ -380,7 +380,7 @@ Transform an object without mutating the original.
 
 #### Defined in
 
-[objects.ts:66](https://github.com/ariesclark/utils/blob/d20b945/src/objects.ts#L66)
+[objects.ts:66](https://github.com/ariesclark/utils/blob/f54dd1b/src/objects.ts#L66)
 
 ___
 
@@ -411,7 +411,7 @@ without the specified keys. The original object is not mutated.
 
 #### Defined in
 
-[objects.ts:91](https://github.com/ariesclark/utils/blob/d20b945/src/objects.ts#L91)
+[objects.ts:91](https://github.com/ariesclark/utils/blob/f54dd1b/src/objects.ts#L91)
 
 ___
 
@@ -442,4 +442,4 @@ with the specified keys. The original object is not mutated.
 
 #### Defined in
 
-[objects.ts:77](https://github.com/ariesclark/utils/blob/d20b945/src/objects.ts#L77)
+[objects.ts:77](https://github.com/ariesclark/utils/blob/f54dd1b/src/objects.ts#L77)

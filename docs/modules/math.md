@@ -31,4 +31,4 @@ This will round to the nearest boundary if the value is outside of it.
 
 #### Defined in
 
-[math.ts:9](https://github.com/ariesclark/utils/blob/d20b945/src/math.ts#L9)
+[math.ts:9](https://github.com/ariesclark/utils/blob/f54dd1b/src/math.ts#L9)
