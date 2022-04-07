@@ -5,7 +5,7 @@
   "main": "dist/index.js",
   "files": ["dist"],
   "scripts": {
-    "build": "tsc && typedoc --plugin typedoc-plugin-markdown --out docs src/index.ts",
+    "build": "tsc && typedoc --githubPages true --plugin typedoc-plugin-markdown --out docs src/index.ts",
     "lint": "eslint --fix ./src/**/*.ts"
   },
   "keywords": [
