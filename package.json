@@ -1,0 +1,25 @@
+{
+  "name": "@ariesclark/utils",
+  "version": "0.0.1",
+  "description": "A couple utility functions",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint --fix ./src/**/*.ts"
+  },
+  "keywords": [
+    "utility",
+    "types",
+    "typescript"
+  ],
+  "author": "ariesclark",
+  "license": "MIT",
+  "devDependencies": {
+    "@ariesclark/eslint-config": "^1.0.3",
+    "eslint": "^8.12.0",
+    "typescript": "^4.6.3"
+  },
+  "dependencies": {
+    "tslib": "^2.3.1"
+  }
+}
