@@ -33,5 +33,10 @@ jobs:
       - name: build package
         run: pnpm build
 
+      - name: publish changes
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "chore(build): generate documentation"
+
       - name: publish package
         run: pnpm publish --no-git-checks --access public

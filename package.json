@@ -3,8 +3,9 @@
   "version": "0.0.1",
   "description": "A couple utility functions",
   "main": "dist/index.js",
+  "files": ["dist"],
   "scripts": {
-    "build": "tsc",
+    "build": "tsc && typedoc --plugin typedoc-plugin-markdown --out docs src/index.ts",
     "lint": "eslint --fix ./src/**/*.ts"
   },
   "keywords": [
@@ -17,6 +18,8 @@
   "devDependencies": {
     "@ariesclark/eslint-config": "^1.0.3",
     "eslint": "^8.12.0",
+    "typedoc": "^0.22.14",
+    "typedoc-plugin-markdown": "^3.11.14",
     "typescript": "^4.6.3"
   },
   "dependencies": {
