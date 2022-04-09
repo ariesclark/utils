@@ -1,2 +1,3 @@
-# @ariesclark/utils
-A couple utility functions
+![GitHub image](https://raphtalia.ariesclark.com/github/ariesclark/utils/banner?)
+
+[![npm](https://img.shields.io/badge/documentation-available-fff?logo=vercel)](https://ariesclark.github.io/utils/) [![github](https://img.shields.io/badge/github-available-fff?logo=github)](https://github.com/ariesclark/utils) [![npm](https://img.shields.io/badge/npm-available-bf2c2c?logo=npm)](https://npm.im/@ariesclark/utils)
