@@ -1,6 +1,11 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
+
 export type Keys <T> = keyof T;
 export type Merge <A, B> = {[K in Keys<A> | Keys<B>]: A[K & Keys<A>] | B[K & Keys<B>]};
 export type Cast<X, Y> = X extends Y ? X : Y;
+
+export type Constructor = new (...args: any) => any;
+export type AbstractConstructor = abstract new (...args: any) => any;
 
 /** Array<[key, value]> */
 export type Entries <T> = Array<{ [K in Keys<T>]: [K, T[K]] }[Keys<T>]>;
