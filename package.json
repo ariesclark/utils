@@ -1,6 +1,6 @@
 {
   "name": "@ariesclark/utils",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A couple utility functions",
   "main": "dist/index.js",
   "files": [
