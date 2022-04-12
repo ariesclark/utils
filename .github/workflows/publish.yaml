@@ -41,6 +41,7 @@ jobs:
       - name: publish documentation
         run: |
           cp -r docs/ /tmp/docs
+          git fetch
           git checkout pages
           rm * -rf
           cp /tmp/docs/* .
