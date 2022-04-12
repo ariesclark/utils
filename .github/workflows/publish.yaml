@@ -31,14 +31,20 @@ jobs:
         run: pnpm i
 
       - name: build package
-        run: pnpm build
-
-      - name: publish changes
-        uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          branch: gh-pages
-          create_branch: true
-          commit_message: "chore(build): generate documentation"
-
+        run: pnpm build:source
+      
       - name: publish package
         run: pnpm publish --no-git-checks --access public
+
+      - name: build documentation
+        run: pnpm build:documentation
+
+      - name: publish documentation
+        run: |
+          cp -r docs/ /tmp/docs
+          git checkout pages
+          rm * -rf
+          cp /tmp/docs/* .
+          git add *
+          git commit -m "chore(build): generate documentation"
+          git push 

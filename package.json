@@ -1,13 +1,15 @@
 {
   "name": "@ariesclark/utils",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A couple utility functions",
   "main": "dist/index.js",
   "files": [
     "dist"
   ],
   "scripts": {
-    "build": "tsc && typedoc --out docs src/index.ts",
+    "build": "npm run -s build:source && npm run -s build:documentation",
+    "build:source": "tsc",
+    "build:documentation": "typedoc --out docs src/index.ts",
     "lint": "eslint --fix ./src/**/*.ts"
   },
   "keywords": [
