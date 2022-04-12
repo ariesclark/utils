@@ -32,6 +32,7 @@ jobs:
         run: pnpm build:source
       
       - name: publish package
+        if: "! contains(toJSON(github.event.commits.*.message), '[skip-publish]')"
         run: pnpm publish --no-git-checks --access public
 
       - name: build documentation
