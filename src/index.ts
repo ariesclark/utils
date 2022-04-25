@@ -19,6 +19,7 @@ export type OptionalOnly <T> = Omit<T, Keys<RequiredOnly<T>>>;
 export type Constructor <P extends Array<any>, R> = new (...args: P) => R;
 export type AbstractConstructor <P extends Array<any>, R> = abstract new (...args: P) => R;
 
+export * as C from "./crypto";
 export * as F from "./functions";
 export * as M from "./math";
 export * as O from "./objects";
