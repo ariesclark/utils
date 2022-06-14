@@ -1,3 +1,3 @@
-![GitHub image](https://raphtalia.ariesclark.com/github/ariesclark/utils/banner?)
+Basically a lodash alternative.
 
 [![documentation](https://img.shields.io/badge/documentation-available-fff?logo=vercel)](https://ariesclark.github.io/utils/) [![github](https://img.shields.io/badge/github-available-fff?logo=github)](https://github.com/ariesclark/utils) [![npm](https://img.shields.io/badge/npm-available-bf2c2c?logo=npm)](https://npm.im/@ariesclark/utils) [![discord](https://img.shields.io/badge/discord-join%20the%20community-5865F2?logo=discord&logoColor=white)](https://discord.gg/rj3YQQu)

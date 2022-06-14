@@ -9,7 +9,10 @@ import type { Keys } from "./keys";
  * @param object The original object.
  * @param keys An array of keys to keep.
  */
-export function pick <T, K extends Array<Keys<T>>> (object: Readonly<T>, keys: K): Pick<T, K[number]> {
+export function pick<T, K extends Array<Keys<T>>>(
+	object: Readonly<T>,
+	keys: K
+): Pick<T, K[number]> {
 	const newObject = create<Pick<T, K[number]>>();
 	for (const key of keys) newObject[key] = object[key];
 

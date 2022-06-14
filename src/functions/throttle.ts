@@ -11,7 +11,7 @@
  * @param delay Time in milliseconds
  * @returns The throttled function.
  */
-export function throttle <T extends (...args: Array<any>) => void> (callback: T, delay: number): T {
+export function throttle<T extends (...args: Array<any>) => void>(callback: T, delay: number): T {
 	let timer: ReturnType<typeof setTimeout> | null = null;
 
 	return ((...args: Parameters<T>) => {

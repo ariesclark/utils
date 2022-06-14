@@ -6,7 +6,6 @@ import { float } from "./float";
  * @param min The minimum possible value.
  * @param max The maximum possible value.
  */
-export function range (min: number, max: number): number {
+export function range(min: number, max: number): number {
 	return Math.floor(float() * (max - min + 1)) + min;
 }
-

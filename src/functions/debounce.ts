@@ -11,7 +11,7 @@
  * @param delay Time in milliseconds
  * @returns The debounced function.
  */
-export function debounce <T extends (...args: Array<any>) => void> (callback: T, delay: number): T {
+export function debounce<T extends (...args: Array<any>) => void>(callback: T, delay: number): T {
 	let timer: ReturnType<typeof setTimeout> | null = null;
 
 	return ((...args: Parameters<T>) => {

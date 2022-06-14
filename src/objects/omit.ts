@@ -9,7 +9,10 @@ import type { Keys } from "./keys";
  * @param object The original object.
  * @param keys An array of keys to remove.
  */
-export function omit <T, K extends Array<Keys<T>>> (object: Readonly<T>, keys: K): Omit<T, K[number]> {
+export function omit<T, K extends Array<Keys<T>>>(
+	object: Readonly<T>,
+	keys: K
+): Omit<T, K[number]> {
 	const newObject = create(object);
 	for (const key of keys) delete newObject[key];
 

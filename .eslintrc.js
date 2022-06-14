@@ -1,8 +1,9 @@
-require("@ariesclark/eslint-config/modern-module-resolution");
+require("@ariesclark/eslint-config/eslint-patch");
 
 module.exports = {
-  extends: ["@ariesclark/eslint-config"],
-  parserOptions: {
-    tsconfigRootDir: __dirname,
-  }
-}
+	root: true,
+	extends: ["@ariesclark/eslint-config"],
+	parserOptions: {
+		tsconfigRootDir: __dirname
+	}
+};
